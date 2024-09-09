@@ -1,5 +1,5 @@
 # MarkinKE_Algorithmization
-https://docs.google.com/document/d/1kGVV50_xqjU4yuVv9PJgcf4veSFau6pS27OZlMMw0r0/edit?usp=sharing
+[Автобус едет до слободы,а  доедешь ли ты или нет это никому не ведомо](https://docs.google.com/document/d/1kGVV50_xqjU4yuVv9PJgcf4veSFau6pS27OZlMMw0r0/edit?usp=sharing)
 что
 | чоч | чоч | чоч |
 |-|:-:|-:|
