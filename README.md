@@ -10,4 +10,4 @@
 ![image](https://github.com/user-attachments/assets/a18245d5-c172-4fc5-815d-4922b73fcdfb)
 
 с первым днем лета 🦭
-(https://i.ytimg.com/vi/WzHK3jVgW9Y/maxresdefault.jpg)
+!(https://i.ytimg.com/vi/WzHK3jVgW9Y/maxresdefault.jpg)
