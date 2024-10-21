@@ -4,6 +4,7 @@
 [Папка алгоритмизация](https://drive.google.com/drive/folders/1Kyl5tRALw4bu0Qhv1btufo1lbhRlaejS?usp=sharing)
 
 [Презентация на конкурс к понедельнику 21.10.2024](https://docs.google.com/presentation/d/1AzBy7orDOOrT5HJON8sdWBqDfA11URC3/edit?usp=sharing&ouid=118001589816062457601&rtpof=true&sd=true)
+
 🎁🎁🎁🎁🎁🎁🎁🎁
 что
 | чоч | чоч | чоч |
