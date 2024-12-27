@@ -1,0 +1,856 @@
+:: StoryTitle
+28.12.24
+
+
+:: StoryData
+{
+  "ifid": "F9514631-F6B2-45D3-8646-6C5B7E7BE144",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Начало",
+  "zoom": 1
+}
+
+
+:: ''Закончить'' {"position":"375,1125","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class="textbox">
+Благодарю за ваше внимание, $name!
+[[Выйти->Закрыть окно]]
+[[Начать заново ->Начало]]
+</div>
+
+
+:: ''Перейти к  ПО сборки'' {"position":"375,575","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://redos.red-soft.ru/product/downloads/")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://redos.red-soft.ru/bitrix/templates/redos/img/dest/logo.svg" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить Ред ОС
+    </div>
+</div>
+]
+[
+    	<div class="good" style="margin-top:5px">
+        	[[''Далее''->ПО]]
+       ]
+            
+ <img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+
+<div class="elongatedtextbox">
+    Ред ОС — это современная операционная система, основанная на Linux, которая обеспечивает высокий уровень безопасности и стабильности, поддерживает широкий спектр программного обеспечения и совместима с различными аппаратными платформами. Она предлагает удобный интерфейс, регулярные обновления и активное сообщество пользователей, что делает её идеальным выбором для работы, учебы и повседневного использования. Кроме того, Ред ОС поддерживает российские стандарты и решения, что важно для обеспечения информационной безопасности и независимости, а также подходит под требования чемпионата.
+    
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: ''Перейти к переферии бюджетной сборки'' {"position":"575,850","size":"100,100"}
+{=
+(click-rerun:?monitor)[(open-url:"https://www.dns-shop.ru/product/69928aa1f6eed9cb/27-monitor-acer-vero-rl272eyiiv-cernyj/")]
+(click-rerun:?keyboard)[(open-url:"https://www.dns-shop.ru/product/172e7aba2bd43330/klaviatura-provodnaa-defender-hb-420-45420/")]
+(click-rerun:?mouse)[(open-url:"https://www.dns-shop.ru/product/6f65217943073120/mys-provodnaa-cbr-cm-102--cernyj/")]
+
+<div class="choosegoods">
+    [
+    	<div class="good">
+        	<img class="goodimg" style="width:75px" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/2f694bb9cd230f8a1003e6e79bb9737d/d4279ec0cd267e90aeca6e176fc6b1665c760b836dc3f6e76b58214e527ac6c2.jpg.webp"/>
+           27" Монитор Acer Vero RL272Eyiiv черный - 33398/2шт руб.
+        </div>
+     ]<monitor|
+     
+     [
+    	<div class="good">
+        	<img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/4a5a831a418009cc549d67f221440438/addbd1f90c03cf2e3707ee15913fb97cd8dd0ba7eb23ad0a5d6938da42e24204.jpg.webp"/>
+           	Клавиатура проводная Defender HB-420 - 499 руб.
+        </div>
+     ]<keyboard|
+     
+     [
+    	<div class="good">
+        	<img class="goodimg" style="height:85px" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/bf058028e746ff83098fff413694fd46/bb1dd33046e6a95650dbf7569d487d8c57ce06143ebe163dfe1d6feff5d70385.jpg.webp"/>
+           	Мышь проводная CBR CM-102 (черный) - 180 руб.
+        </div>
+     ]<mouse|
+     
+    	<div class="good" style="margin-top:5px">
+        	[[''Перейти к  ПО сборки'']]
+
+<div class="textbox">
+Данный набор переферии соответствует всем требованиям чемпионата.<br/>
+Его общая стоимость - <b>34077 руб.</b>
+
+<br>
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</br>
+</div>
+
+
+:: ''Перейти к переферии минимальной сборки'' {"position":"375,450","size":"100,100"}
+{=
+(click-rerun:?monitor)[(open-url:"https://www.dns-shop.ru/product/69928aa1f6eed9cb/27-monitor-acer-vero-rl272eyiiv-cernyj/")]
+(click-rerun:?keyboard)[(open-url:"https://www.dns-shop.ru/product/172e7aba2bd43330/klaviatura-provodnaa-defender-hb-420-45420/")]
+(click-rerun:?mouse)[(open-url:"https://www.dns-shop.ru/product/6f65217943073120/mys-provodnaa-cbr-cm-102--cernyj/")]
+
+<div class="choosegoods">
+    [
+    	<div class="good">
+        	<img class="goodimg" style="width:75px" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/2f694bb9cd230f8a1003e6e79bb9737d/d4279ec0cd267e90aeca6e176fc6b1665c760b836dc3f6e76b58214e527ac6c2.jpg.webp"/>
+           27" Монитор Acer Vero RL272Eyiiv черный - 33398/2шт руб.
+        </div>
+     ]<monitor|
+     
+     [
+    	<div class="good">
+        	<img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/4a5a831a418009cc549d67f221440438/addbd1f90c03cf2e3707ee15913fb97cd8dd0ba7eb23ad0a5d6938da42e24204.jpg.webp"/>
+           	Клавиатура проводная Defender HB-420 - 499 руб.
+        </div>
+     ]<keyboard|
+     
+     [
+    	<div class="good">
+        	<img class="goodimg" style="height:85px" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/bf058028e746ff83098fff413694fd46/bb1dd33046e6a95650dbf7569d487d8c57ce06143ebe163dfe1d6feff5d70385.jpg.webp"/>
+           	Мышь проводная CBR CM-102 (черный) - 180 руб.
+        </div>
+     ]<mouse|
+     
+    	<div class="good" style="margin-top:5px">
+        	[[''Перейти к  ПО сборки'']]
+
+<div class="textbox">
+Данный набор переферии соответствует всем требованиям чемпионата.<br/>
+Его общая стоимость - <b>34077 руб.</b>
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Бюджетный {"position":"600,725","size":"100,100"}
+{=
+(click-rerun:?cpu)[(open-url:"https://www.dns-shop.ru/product/d237e136aff1ed20/processor-amd-ryzen-5-4500-oem/")]
+    (click-rerun:?mboard)[(open-url:"https://www.dns-shop.ru/product/1c4e87cd8208d582/materinskaa-plata-biostar-h510mhp-40/")]
+    (click-rerun:?psu)[(open-url:"https://www.dns-shop.ru/product/f5743d04b605d21a/blok-pitania-digma-dpsu-350w--cernyj/")]
+    (click-rerun:?case)[(open-url:"https://www.dns-shop.ru/product/98f0ad6e5f423332/korpus-dexp-dc-302r--krasnyj/")]
+    (click-rerun:?cooling)[(open-url:"https://www.dns-shop.ru/product/cd54a8497a80ed20/kuler-dla-processora-id-cooling-dk-01t-lga1700/")]
+    (click-rerun:?ram)[(open-url:"https://www.dns-shop.ru/product/b2eb2c44c1f63330/operativnaa-pamat-apacer-el08g2vgnh-8-gb/")]
+    (click-rerun:?ssd)[(open-url:"https://www.dns-shop.ru/product/7135d85ae5b73332/512-gb-25-sata-nakopitel-patriot-memory-p210-p210s512g25/")]
+    
+    <div class="choosegoods"> 
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/055335df1dbe878c2f35d6dd6018ed2f/a42a9e584a80195af99d28e00fce8f09baf87c3d1291ad01d157d7c55e2b674e.jpg.webp"/>
+             Процессор AMD Ryzen 5 4500 OEM - 7699 руб.
+            </div>
+        ]<cpu|
+        
+        [
+            <div class="good">
+                    <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/0/0/b7fc2f8ae4ebc0b84a556283c5bb520b/45f313508058a7a32360808ba52d58124e7491d3ee1e31e2552c0d54d5422752.png.webp"/>
+                Материнская плата Biostar H510MHP 4.0 - 6899 руб.
+            </div>
+        ]<mboard|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/0/0/742ca6bed0aec8328f180ee1dfa6302e/7d4f07298f06b287b71bd81415cdf0ed5610e35a03d54ed5317ebb5fc99685cb.png.webp"/>
+                Блок питания Digma DPSU-350W (чёрный) - 2199 руб.
+            </div>
+        ]<psu|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/02a3e115ee1dfa4968778c00e2ff9fec/9ae48b08f48b64517d51b98859cf2e8613f2ea94e14410d14330e591530abd2e.jpg.webp"/>
+                Корпус DEXP DC-302R (красный) - 1599 руб.
+            </div>
+        ]<case|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/c5977a13005e68047623b1973cecc277/6f9745e2035bf3c064c34524a2cf113136af8bfe6224f84e3449afa7452ea0db.jpg.webp"/>
+                Кулер для процессора ID-COOLING DK-01T - 499 руб.
+            </div>
+        ]<cooling|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/b1f2110f9b3058ac8d9602cff688ceb3/2f793db0d8faebd9c29a716881d928d092cb4f1166cf08368c5b91e0a4e129d4.jpg.webp"/>
+                Оперативная память Apacer 8 ГБ - 4497/3шт руб.
+            </div>
+        ]<ram|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/bec87c9e7f5aa4dc8625f48d767ce2fc/533c50debfbef88ee055e16864e2be63c6827c497e9e718e99b0b9bd15604fc0.jpg.webp"/>
+                512 ГБ 2.5" SATA накопитель Patriot Memory P210 - 3199 руб.
+            </div>
+        ]<ssd|
+        
+     
+    <div class="good" style="margin-top:5px">
+        [[''Перейти к переферии бюджетной сборки'']]
+        
+       
+        <div class="textbox2">
+[Данный ПК - самый дешёвый из подходящих по требованиям для данного чемпионата. Его стоимость с переферией составляет ''60668 руб.'', без переферии -''26591 руб.''
+К сожалению, сделав общий анализ рынка ПК, можно сделать вывод, что уложиться в бюджет 600.000 руб. на 25 компьютеров, подходящих под требования чемпионата, невозможно.
+
+<br>
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</br>
+]
+</div>
+
+
+:: Готовый бюджетный {"position":"750,775","size":"100,100"}
+{=
+(click-rerun:?pc)[(open-url:"https://www.dns-shop.ru/product/bd3c9c3a549cd9cb/pk-dexp-atlas-h461/")]
+]
+
+ [
+    	[
+            <div class="good">
+                    <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/1529d4746dd5cc25a7f3bedbc20399e7/26db2446801491623cbf9bc11193d54e0157cf13bfff492128067c0e96d00f50.jpg.webp"/>
+                   ПК DEXP Atlas H461 - 36990 руб.
+                </div>
+            ]<pc|
+    ]
+    
+    	<div class="good" style="margin-top:5px">
+        	[[''Перейти к переферии бюджетной сборки''->''Перейти к переферии минимальной сборки'']]
+            
+<div class="textbox">
+Данный ПК полностью удовлетворяет требования чемпионата и может быть использовать для легких приложений и офисных работ. Его стоимость с переферией составляет ''54368 руб.'', без переферии - ''36990 руб''. К сожалению, проведя анализ рынка ПК, можно сделать вывод, что дешевле приобрести ПК вместе с перефией и подходящим под минимальные требования чемпионата невозможно, следственно бюджета 600.000 руб. на 25 компьютеров не хватит.
+
+<br>
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</br>
+</div>
+
+
+:: Готовый комфортный {"position":"875,750","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+[
+	(click-rerun:?pc)[(open-url:"https://www.dns-shop.ru/product/3aebe86e61cbed20/pk-ardor-gaming-neo-m143/")]
+
+<div class="choosegoods">
+    	[
+            <div class="good">
+                    <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/500/500/9409d1572800ed85c2936db1a27a4ce7/40a36afea37242b3e2faa935725e81ee56b364f6dc40aea2e41807e2f614b67a.jpg.webp"/>
+                    ПК ARDOR GAMING RAGE H361 - 71999 руб.
+                </div>
+            ]<pc|
+            
+   	<div class="good" style="margin-top:5px">
+        [[Перейти к переферии комфортной сборки]]
+        </div>  
+   
+
+<div class="textbox">
+Данный ПК обеспечит комфортную работу в любом виде деятельности, например: работа с трёхмерной графикой и её отображение, "тяжёлый" монтаж видео с множеством эффектов, создание и сборка приложений с массивной кодовой базой, или запуск локальных нейронных сетей. Он быстр и надёжен,а также имеет некоторый потенциал для улучшения комплектующих. Его стоимость с переферией составляет ''217695 руб.'', без переферии - ''71999 руб.''.
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Готовый минимальный {"position":"975,600","size":"100,100"}
+{=
+(click-rerun:?pc)[(open-url:"https://www.dns-shop.ru/product/bd3c9c3a549cd9cb/pk-dexp-atlas-h461/")]
+]
+
+ [
+    	[
+            <div class="good">
+                    <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/1529d4746dd5cc25a7f3bedbc20399e7/26db2446801491623cbf9bc11193d54e0157cf13bfff492128067c0e96d00f50.jpg.webp"/>
+                   ПК DEXP Atlas H461 - 36990 руб.
+                </div>
+            ]<pc|
+    ]
+    
+    	<div class="good" style="margin-top:5px">
+        	[[''Перейти к переферии минимальной сборки'']]
+            
+<div class="textbox"> 
+Данный ПК полностью удовлетворяет требования чемпионата и может быть использован для объемных работ и 3D моделирования. Его стоимость с переферией составляет ''71067 руб.'', без переферии - ''36990 руб''.
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Заказать новый ПК. {"position":"750,500","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class="choosemid">
+[[Хочу собрать сам(а)]]
+[[Хочу выбрать уже готовый]]
+</div>
+<div class="textbox">
+Хорошо, теперь вопрос, ты хочешь сам(а) собрать ПК или выбрать уже готовый?
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Закрыть окно {"position":"300,350","size":"100,100"}
+<script>
+window.close();
+</script>
+
+
+:: Комфортный {"position":"400,700","size":"100,100"}
+{=
+[
+    (click-rerun:?cpu)[(open-url:"https://www.dns-shop.ru/product/d4bde9994d11ed20/processor-amd-ryzen-5-7500f-oem/")]
+    (click-rerun:?mboard)[(open-url:"https://www.dns-shop.ru/product/414e9c60e254ed20/materinskaa-plata-msi-b650-gaming-plus-wifi/")]
+    (click-rerun:?psu)[(open-url:"https://www.dns-shop.ru/product/309866790b00d763/blok-pitania-chieftec-powerup-750w-gpx-750fc-cernyj/")]
+    (click-rerun:?case)[(open-url:"https://www.dns-shop.ru/product/832f685142bfed20/korpus-montech-air-1000-silent--cernyj/")]
+    (click-rerun:?cooling)[(open-url:"https://www.dns-shop.ru/product/e2949b243404ed20/kuler-dla-processora-id-cooling-se-224-xts-se-224-xts/")]
+    (click-rerun:?ram)[(open-url:"https://www.dns-shop.ru/product/859ec8b0fb35ed20/operativnaa-pamat-kingston-fury-beast-black-kf556c40bbk2-64-64-gb/")]
+
+<div class="choosegoods">
+    [
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/c7c28253ee6da8c47d6323f5cbb5b852/e6293f21cc6d64c505e37405fa55d329827db7f8cd863e254841198e037f2386.jpg.webp"/>
+                Процессор AMD Ryzen 5 7500F OEM - 17499 руб.
+            </div>
+        ]<cpu|
+
+        [
+            <div class="good">
+                    <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/b02cea8a09b6109a598c6cdca852534f/f3465b1dd9af53fe73dc06da168b9d1a42ea0530c467065cb097a541a07d152e.jpg.webp"/>
+                Материнская плата MSI B650 GAMING PLUS WIFI - 24999 руб.
+            </div>
+        ]<mboard|
+
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/135e8f52f8ebea43958262aaba9678fc/928e9e5150d190ef989113426ab83eec97a8ed948192a1cbc1b29c1ee9a999f5.jpg.webp"/>
+                Блок питания Chieftec PowerUP 750W (черный) - 12999 руб.
+            </div>
+        ]<psu|
+
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/da8b2ae9560ed6c903fe5a038848768d/73ed0d5b7b9bf92144c0af20bbe6a00673a72d6a4a597f8365db67226807549c.jpg.webp"/>
+                Корпус MONTECH AIR 1000 SILENT (черный) - 7999 руб.
+            </div>
+        ]<case|
+
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/0/0/f1412e53a441f101df367cde2a3af9ef/1df14f6bba96a4d8b2022fb5f7d32a8b84a93b1883935bf9b21b980e71577de9.jpg.webp"/>
+                Кулер для процессора ID-COOLING SE-224-XTS - 2699 руб.
+            </div>
+        ]<cooling|
+
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/f953a795f3d35fcc9c8c0f4d849ec028/44f504cf9cf8ee098650eba974a9a52e54d02d6f6c28afea6ee36dc6c1b3c19f.jpg.webp"/>
+                Оперативная память Kingston FURY Beast Black 64 ГБ - 25899 руб.
+            </div>
+        ]<ram|
+    ]
+    [
+    	<div class="good" style="margin-top:5px">
+        [[Перейти к переферии комфортной сборки]]
+        </div>
+
+<div class="textbox">
+Этот ПК обеспечит комфортную работу в различных областях, включая трехмерную графику и её визуализацию, сложный видеомонтаж с множеством эффектов, разработку и сборку приложений с обширной кодовой базой, а также запуск локальных нейронных сетей. Он отличается высокой скоростью и надежностью.
+Его стоимость с переферией составляет ''217587 руб.'', без переферии - ''177891 руб.''.
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Минимальный {"position":"550,500","size":"100,100"}
+{=
+(click-rerun:?cpu)[(open-url:"https://www.dns-shop.ru/product/d237e136aff1ed20/processor-amd-ryzen-5-4500-oem/")]
+    (click-rerun:?mboard)[(open-url:"https://www.dns-shop.ru/product/1c4e87cd8208d582/materinskaa-plata-biostar-h510mhp-40/")]
+    (click-rerun:?psu)[(open-url:"https://www.dns-shop.ru/product/f5743d04b605d21a/blok-pitania-digma-dpsu-350w--cernyj/")]
+    (click-rerun:?case)[(open-url:"https://www.dns-shop.ru/product/98f0ad6e5f423332/korpus-dexp-dc-302r--krasnyj/")]
+    (click-rerun:?cooling)[(open-url:"https://www.dns-shop.ru/product/cd54a8497a80ed20/kuler-dla-processora-id-cooling-dk-01t-lga1700/")]
+    (click-rerun:?ram)[(open-url:"https://www.dns-shop.ru/product/b2eb2c44c1f63330/operativnaa-pamat-apacer-el08g2vgnh-8-gb/")]
+    (click-rerun:?ssd)[(open-url:"https://www.dns-shop.ru/product/7135d85ae5b73332/512-gb-25-sata-nakopitel-patriot-memory-p210-p210s512g25/")]
+    
+    <div class="choosegoods"> 
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/500/500/055335df1dbe878c2f35d6dd6018ed2f/a42a9e584a80195af99d28e00fce8f09baf87c3d1291ad01d157d7c55e2b674e.jpg.webp"/>
+             Процессор AMD Ryzen 5 4500 OEM - 7699 руб.
+            </div>
+        ]<cpu|
+        
+        [
+            <div class="good">
+                    <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/0/0/b7fc2f8ae4ebc0b84a556283c5bb520b/45f313508058a7a32360808ba52d58124e7491d3ee1e31e2552c0d54d5422752.png.webp"/>
+                Материнская плата Biostar H510MHP 4.0 - 6899 руб.
+            </div>
+        ]<mboard|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/0/0/742ca6bed0aec8328f180ee1dfa6302e/7d4f07298f06b287b71bd81415cdf0ed5610e35a03d54ed5317ebb5fc99685cb.png.webp"/>
+                Блок питания Digma DPSU-350W (чёрный) - 2199 руб.
+            </div>
+        ]<psu|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/02a3e115ee1dfa4968778c00e2ff9fec/9ae48b08f48b64517d51b98859cf2e8613f2ea94e14410d14330e591530abd2e.jpg.webp"/>
+                Корпус DEXP DC-302R (красный) - 1599 руб.
+            </div>
+        ]<case|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/c5977a13005e68047623b1973cecc277/6f9745e2035bf3c064c34524a2cf113136af8bfe6224f84e3449afa7452ea0db.jpg.webp"/>
+                Кулер для процессора ID-COOLING DK-01T - 499 руб.
+            </div>
+        ]<cooling|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/b1f2110f9b3058ac8d9602cff688ceb3/2f793db0d8faebd9c29a716881d928d092cb4f1166cf08368c5b91e0a4e129d4.jpg.webp"/>
+                Оперативная память Apacer 8 ГБ - 4497/3шт руб.
+            </div>
+        ]<ram|
+        [
+            <div class="good">
+                <img class="goodimg" src="https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/bec87c9e7f5aa4dc8625f48d767ce2fc/533c50debfbef88ee055e16864e2be63c6827c497e9e718e99b0b9bd15604fc0.jpg.webp"/>
+                512 ГБ 2.5" SATA накопитель Patriot Memory P210 - 3199 руб.
+            </div>
+        ]<ssd|
+        
+         [
+    	<div class="good" style="margin-top:5px">
+        	[[''Перейти к переферии минимальной сборки'']]
+        
+       
+        <div class="textbox2">
+[Данный ПК - самый дешёвый из подходящих по требованиям для данного чемпионата. Его стоимость с переферией составляет ''60668 руб.'', без переферии -''26591 руб.''
+<br>
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</br>
+]
+</div>
+
+
+:: Начало {"position":"425,100","size":"100,100"}
+(set:$name to(prompt:"Введите имя",""))
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class=textbox>[Доброго времени суток, $name! В этой новелле я расскажу тебе о чемпионате 'Корпоративная защита от внутренних угроз информационной безопасности', а также подскажу какой пк стоит выбрать на основе требований к нему. Тебе это интересно?
+
+[[Продолжить!]]
+[[Меня это не интересует.->Закрыть окно]]]
+</div>
+
+
+:: ПО {"position":"175,500","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://www.virtualbox.org/wiki/Downloads")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBWbUV7GA-STBEapSvNHmJtRmIYcelbodmXg&s" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить Oracle VirtualBox
+    </div>
+</div>
+]<app|
+
+  [  	<div class="good" style="margin-top:5px">
+        	[[''Далее''->ПО2]] ]
+
+ <img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+
+<div class="elongatedtextbox">
+    Oracle VirtualBox — это мощный и бесплатный инструмент для виртуализации, который позволяет запускать несколько операционных систем на одном компьютере. Он поддерживает широкий спектр платформ, прост в использовании и настройке, предлагает гибкие возможности управления виртуальными машинами, включая создание снимков и клонирование. VirtualBox также позволяет тестировать программное обеспечение в изолированной среде, что повышает безопасность и упрощает разработку. Благодаря активному сообществу пользователей и регулярным обновлениям, он остается актуальным и надежным решением для разработчиков и IT-специалистов.
+    
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: ПО2 {"position":"75,650","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://ru.libreoffice.org/")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6DFJcfacNzKBGmciBei0KTOm73JGATroAeQ&s" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить LibreOffice
+    </div>
+</div>
+]<app|
+
+   [	<div class="good" style="margin-top:5px">
+        	[[''Далее''->ПО3]] ]
+            
+             <img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+
+<div class="elongatedtextbox">
+    LibreOffice — это бесплатный и открытый офисный пакет, предоставляющий мощные инструменты для работы с текстовыми документами, таблицами, презентациями и базами данных. Он поддерживает множество форматов файлов, включая Microsoft Office, что упрощает обмен документами. LibreOffice регулярно обновляется, имеет активное сообщество поддержки и предлагает множество расширений, что делает его гибким и настраиваемым решением для пользователей с различными потребностями. Кроме того, отсутствие лицензионных платежей делает его доступным для всех.
+    
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: ПО3 {"position":"75,775","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://notepad-plus-plus.org/downloads/")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtCSARmsKumbhFixJGZxNvBpi7zsccKQG4hA&s" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить NotePad++
+    </div>
+</div>
+]<app|
+
+   [ 	<div class="good" style="margin-top:5px">
+        	[[''Далее''->ПО4]] ]
+            
+             <img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+
+<div class="elongatedtextbox">
+   NotePad++ — это мощный и бесплатный текстовый редактор, который поддерживает множество языков программирования и предлагает удобный интерфейс с подсветкой синтаксиса, что облегчает чтение и написание кода. Он обладает функциями автозавершения, поиска и замены, а также поддерживает плагины для расширения функциональности. NotePad++ легковесен и быстро загружается, что делает его идеальным выбором для разработчиков и пользователей, которым нужен эффективный инструмент для редактирования текста и кода.
+   
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: ПО4 {"position":"225,850","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://www.google.com/intl/ru_ru/chrome/")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить Chrome
+    </div>
+</div>
+]<app|
+
+  [  	<div class="good" style="margin-top:5px">
+        	[[''Далее''->ПО5]] ]
+            
+             <img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+
+<div class="elongatedtextbox">
+   Использование Chrome оправдано благодаря его высокой скорости работы, стабильности и широкому набору функций, таких как синхронизация данных между устройствами, встроенный блокировщик рекламы и мощные инструменты для разработчиков. Браузер поддерживает множество расширений, что позволяет адаптировать его под индивидуальные потребности пользователей. Кроме того, Chrome обеспечивает высокий уровень безопасности с регулярными обновлениями и защитой от вредоносных сайтов, что делает его надежным выбором для серфинга в интернете.
+   
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: ПО5 {"position":"375,875","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://okular.kde.org/download/")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://okular.kde.org/images/okular.png" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить Okular
+    </div>
+</div>
+]<app|
+
+    [	<div class="good" style="margin-top:5px">
+        	[[''Далее''->ПО6]] ]
+            
+             <img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+
+<div class="elongatedtextbox">
+    В качестве ПО для просмотра и редактирования PDF-документов следует использовать приложение Okular. Okular - популярное, некоммерческое, мультиплатформенное приложение с открытым исходным кодом, обладающее большим списком поддерживаемых форматов документов и даже книг, входящее в состав KDE, оно (как правило) установлено по стандарту вместе с окружением KDE Plasma или KDE Plasma Mobile (для мобильных устройств).
+    В качестве альтернативы можете использовать веб-браузер, если он поддерживает открытие PDF-документов.
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: ПО6 {"position":"375,1000","size":"100,100"}
+{=
+(click-rerun:?app)[(open-url:"https://7-zip.org/download.html")]
+
+<div class="choosegoods">
+[
+	<div class="good">
+        <img src="https://7-zip.org/7ziplogo.png" class="goodimg" style="width:50px; height: 50px;"/>
+        Установить 7zip
+    </div>
+</div>
+]<app|
+
+    [	<div class="good" style="margin-top:5px">
+        	[[''Закончить'']] ]
+
+<div class="elongatedtextbox">
+   7-Zip стоит использовать благодаря своей высокой степени сжатия файлов, поддержке множества форматов архивов и бесплатной лицензии с открытым исходным кодом. Он прост в использовании, предлагает интуитивно понятный интерфейс и интеграцию с проводником Windows. Кроме того, 7-Zip обеспечивает надежное шифрование данных и возможность работы с большими файлами, что делает его отличным выбором для пользователей, которым нужны эффективные инструменты для архивирования и управления данными.
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Перейти к переферии комфортной сборки {"position":"250,700","size":"100,100"}
+{=
+(click-rerun:?monitor)[(open-url:"https://www.dns-shop.ru/product/f7f839183624ed20/24-60-sm-smart-monitor-samsung-smart-m5-s24am506ni-cernyj/")]
+(click-rerun:?keyboard)[(open-url:"https://www.dns-shop.ru/product/ef49b07878d47b06/klaviatura-provodnaa--besprovodnaa-keychron-v3-max-v3m-d4/")]
+(click-rerun:?mouse)[(open-url:"https://www.dns-shop.ru/product/e3941cd173dbed20/mys-besprovodnaaprovodnaa-lamzu-maya--cernyj/")]
+
+<div class="choosegoods">
+	[
+    	<div class="good">
+        	<img class="goodimg" style="width:75px" src="https://c.dns-shop.ru/thumb/st4/fit/0/0/dc3de26647dedebfc92610db9103c8b2/d1d33faf33384105d0bd29628d217491edc7b8fb25a018930adf20d411521913.jpg.webp"/>
+           24" (60 см) Смарт-монитор Samsung Smart M5 S24AM506NI черный - 17999 руб.
+        </div>
+    ]<monitor|
+    
+    [
+    	<div class="good">
+        	<img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/5adc3477753c6379cb85b1402572686b/fa653799a92e998b3ccbcfd1dc91dd7d848c6bd070d8a12103af5532135e0ca5.jpg.webp" />
+            Клавиатура проводная + беспроводная Keychron V3 Max - 11799 руб.
+        </div>
+    ]<keyboard|
+    
+    [
+    	<div class="good">
+        	<img class="goodimg" src="https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/ec4ecd1bf7941e6890c0a952992c21c2/50dc20de376f4ac51a98ef5b4d9954c13ffdd5d39bbfef129df1f2e20d867051.jpg.webp" />
+            Мышь беспроводная/проводная LAMZU Maya черный - 8299 руб
+        </div>
+    ]<mouse|
+
+	<div class="good" style="margin-top:5px">
+        	[[''Перейти к  ПО сборки'']]
+            
+<div class="textbox">
+Даннаяя перефирия обеспечит комфортную работу вне зависимости от рода деятельности.<br/>
+Стоимость набора - ''38097 руб.''
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+</div>
+
+
+:: Посмотреть характеристики текущего ПК {"position":"875,400","size":"100,100"}
+<img
+src = 'https://cs13.pikabu.ru/post_img/2023/12/01/0/1701380898122438272.jpg'>
+<div class=textbox>[Изображение выше показывает характеристики твоего текущего ПК. Он тебя устраивает?
+
+[[Нет, он меня не устраивает, хочу заказать новый. ->Заказать новый ПК.]]
+[[Да, он меня устраивает (выход).->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]]
+</div>
+
+
+:: Продолжить! {"position":"650,250","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class=textbox>[Итак, $name, тебе бы хотелось узнать подробнее о чемпионате или сразу перейти к выбору ПК?
+
+[[Хочу узнать подробнее.]]
+[[Я уже ознакомлен(а), хочу выбрать ПК.]]
+[[Я все же передумал(а).->Закрыть окно]]]
+</div>
+
+
+:: Хочу выбрать уже готовый {"position":"775,625","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class="choosemid">
+[[Готовый минимальный]]
+[[Готовый комфортный]]
+[[Готовый бюджетный]]
+</div>
+<div class="textbox">
+[Какой готовый ПК по конфигурации тебя интересует?
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+]
+</div>
+
+
+:: Хочу собрать сам(а) {"position":"650,600","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class="choosemid">
+[[Минимальный]]
+[[Комфортный]]
+[[Бюджетный]]
+</div>
+<div class="textbox">
+[Какой ПК по конфигурации тебя интересует?
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+]
+</div>
+
+
+:: Хочу узнать подробнее. {"position":"525,350","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class=textbox>
+[''Корпоративная защита от внутренних угроз информационной безопасности'' включает в себя меры и стратегии, направленные на предотвращение, выявление и реагирование на угрозы, исходящие от сотрудников или партнеров организации. Внутренние угрозы могут быть как намеренными (например, саботаж, кража данных), так и ненамеренными (ошибки, неосторожное обращение с информацией). Довольно интересно, не правда ли?
+[[Вернуться в начало. ->Начало]]
+[[Теперь хочу выбрать ПК. ->Я уже ознакомлен(а), хочу выбрать ПК.]]
+[[Это всё, что меня интересовало.->Закрыть окно]]]
+</div>
+
+
+:: Я уже ознакомлен(а), хочу выбрать ПК. {"position":"700,375","size":"100,100"}
+<img
+src = 'https://i.postimg.cc/X76qX8NC/0f9c4833c14d11ef8aba72d44e489d41-1-Photoroom.png'>
+<div class="choosemid">
+[[Заказать новый ПК.]]
+[[Посмотреть характеристики текущего ПК]]
+</div>
+
+<div class=textbox>[Отлично, но возможно тот ПК, которым ты пользуешься сейчас, тоже соответствует требованиям?
+
+[[Я все же передумал(а). ->Закрыть окно]]
+[[Вернуться в начало. ->Начало]]
+]
+
+
+:: StoryStylesheet [stylesheet]
+tw-story
+{
+  	background-image: url("https://smart-av.ru/image/blog/gers/01.jpg");
+  	min-height: 150vh;
+  	width: 100vw
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position:relative;
+  	margin-top: 0px;
+}
+
+.textbox
+{
+  	padding: 10px;
+  	height: 25%;
+  	position: fixed;
+  	bottom: 4%;
+  	background-color: #F5FFFA;
+  	width: 70%;
+  	border-radius: 10px;
+  	color:black;
+  	hyphens: auto;
+ 	line-height: 110%;
+  	font-size: 75%;
+}
+
+.choosemid
+{
+  	display:flex;
+  	flex-direction:column;
+  	justify-content:center;
+  	align-content: center;
+  	text-align: center;
+	margin: 0px;
+  	gap:20px;
+}
+
+.choosemid > *
+{
+  	margin:0px;
+  	border-radius: 10px;
+  	background-color: white;
+  	color: black;
+}
+
+.choosegoods
+{
+  	display:flex;
+  	flex-direction:column;
+  	justify-content:center;
+  	align-content: center;
+  	text-align: center;
+  	vertical-align:middle;
+	margin: 0px;
+  	gap:5px;
+}
+
+.choosegoods > *
+{
+  	display:flex;
+  	flex-direction:column;
+  	justify-content:center;
+  	align-content: center;
+  	text-align: center;
+  	vertical-align:middle;
+	margin: 0px;
+  	gap:5px;
+}
+
+.good
+{
+  	margin:0px;
+  	border-radius: 5px;
+  	background-color: white;
+  	color: black;
+}
+
+.good:hover
+{
+	background-color: gray;
+}
+
+.goodimg
+{
+	width: 50px;
+  	height: 50px;
+  	margin-right: 10px;
+}
+
+.elongatedtextbox
+{
+  	padding: 5px;
+  	height: 20%;
+  	position: fixed;
+  	bottom: 4%;
+  	background-color: white;
+  	width: 60%;
+  	border-radius: 10px;
+  	color:black;
+  	hyphens: auto;
+ 	line-height: 110%;
+  	font-size: 65%;
+}
+
+.textbox2
+{
+  	padding: 10px;
+  	height: 15%;
+  	position: fixed;
+  	bottom: 4%;
+  	background-color: #F5FFFA;
+  	width: 70%;
+  	border-radius: 10px;
+  	color:black;
+  	hyphens: auto;
+ 	line-height: 100%;
+  	font-size: 70%;
+}
+
